@@ -1,0 +1,217 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5e63b8aa-6efa-46b5-a7c3-73656608aa0e")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 54.61 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60bfddfb-5c2e-4dd7-88e7-4eb41f149b37")
+	)
+	(sheet
+		(at 41.91 91.44)
+		(size 43.18 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "287eba66-63e2-4b9e-bfcc-4c4580375db7")
+		(property "Sheetname" "FiltroRC_2"
+			(at 41.91 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FiltroRC.kicad_sch"
+			(at 41.91 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 41.91 106.68 180)
+			(uuid "c8dc2a0c-a973-4996-878b-12ae9cc641c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 85.09 106.68 0)
+			(uuid "95eb16ec-5293-4849-bda6-358f3d65a926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 129.54)
+		(size 44.45 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6a92a1a2-d376-4ab3-847a-cb35867cd523")
+		(property "Sheetname" "FiltroRC_3"
+			(at 41.91 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FiltroRC.kicad_sch"
+			(at 41.91 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 41.91 143.51 180)
+			(uuid "55b66fe4-deb3-4b0b-87bd-83aac3a937ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 86.36 143.51 0)
+			(uuid "e26e898c-0d01-4902-a3dd-e39d09a2cc08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 52.07)
+		(size 45.72 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "70181143-413d-4d50-8844-19a53db89c6d")
+		(property "Sheetname" "FiltroRC_1"
+			(at 40.64 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FiltroRC.kicad_sch"
+			(at 40.64 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 40.64 68.58 180)
+			(uuid "cae34413-1d24-423d-b459-788bdebfdc7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 86.36 68.58 0)
+			(uuid "8480d3b2-aed4-460f-8172-907e308133da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
+					(page "4")
+				)
+			)
+		)
+	)
+)
