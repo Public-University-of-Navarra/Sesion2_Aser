@@ -1,0 +1,4 @@
+(version 1)
+(rule "Distancia pista-pista 0,25 mm"
+	(constraint clearance (min 0.25mm))
+	(condition "A.Type == 'Track' && B.Type == 'Track'"))
