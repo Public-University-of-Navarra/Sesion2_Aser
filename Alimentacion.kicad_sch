@@ -5,6 +5,129 @@
 	(uuid "7da9d966-158d-41ce-9866-69a0453ecd8b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -433,10 +556,22 @@
 		)
 	)
 	(junction
+		(at 132.08 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b64f758-4921-44be-b6bd-ef5d8e38d5ed")
+	)
+	(junction
 		(at 111.76 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "836405dc-3dac-4827-bc44-5c5d68a152ee")
+	)
+	(junction
+		(at 105.41 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be3c5058-9ff9-4292-bc16-1b83df56ee6e")
 	)
 	(junction
 		(at 152.4 95.25)
@@ -444,9 +579,25 @@
 		(color 0 0 0 0)
 		(uuid "bf880ece-542b-44f5-9ba4-81e52a890927")
 	)
+	(junction
+		(at 157.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da31359a-e707-4952-943f-f53b087bb314")
+	)
 	(wire
 		(pts
-			(xy 100.33 93.98) (xy 111.76 93.98)
+			(xy 105.41 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028f34f9-ac06-4083-a7d5-1efceb60e4f4")
+	)
+	(wire
+		(pts
+			(xy 100.33 93.98) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -476,7 +627,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 161.29 95.25)
+			(xy 152.4 95.25) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
@@ -493,6 +644,16 @@
 			(type default)
 		)
 		(uuid "8d2c4854-bf82-42e8-bcef-340f3576bd90")
+	)
+	(wire
+		(pts
+			(xy 157.48 95.25) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b8bd3c-219d-4058-9e21-41f5c9b4d54f")
 	)
 	(wire
 		(pts
@@ -599,6 +760,107 @@
 			(project "Sesion2_Aser"
 				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/4f820e1a-76ec-45bc-b4fe-e35628151745"
 					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396805da-337c-457f-917a-bfd55ad75a19")
+		(property "Reference" "TP201"
+			(at 107.95 89.4079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 91.9479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5000"
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b35cb103-2b7d-42bd-b478-795dccd41e85")
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/4f820e1a-76ec-45bc-b4fe-e35628151745"
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -892,6 +1154,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96f836cc-bda8-4578-9229-ba27362f81bf")
+		(property "Reference" "TP202"
+			(at 160.02 90.6779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 160.02 93.2179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 162.56 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5000"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c3c333f-da6f-4ea9-88b4-812ea685bb54")
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/4f820e1a-76ec-45bc-b4fe-e35628151745"
+					(reference "TP202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 101.6 0)
 		(unit 1)
@@ -964,6 +1327,107 @@
 			(project "Sesion2_Aser"
 				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/4f820e1a-76ec-45bc-b4fe-e35628151745"
 					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c74ba11e-fd36-4e43-ae3f-f6e0d8c63978")
+		(property "Reference" "TP203"
+			(at 137.16 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 137.16 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 132.08 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 132.08 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 132.08 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ddea0ef-990f-4c48-8c48-cdb53a846319")
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/4f820e1a-76ec-45bc-b4fe-e35628151745"
+					(reference "TP203")
 					(unit 1)
 				)
 			)

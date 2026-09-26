@@ -1803,7 +1803,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "96a06512-ba06-4cab-8db7-cd6ee32e57c0")
+		(uuid "96634303-7f32-424a-9aa7-23a8c1989952")
 	)
 	(wire
 		(pts
@@ -2047,6 +2047,17 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
+		(at 151.13 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "061c1bbe-29df-419b-8b8a-3a17954697f3")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
 		(at 123.19 96.52 0)
 		(effects
 			(font
@@ -2077,6 +2088,121 @@
 			(justify right)
 		)
 		(uuid "9c76fa8e-de89-42be-bc31-eccbf23f5074")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 137.16 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efea8752-8eb2-4b7f-b0b7-e11d03bc6521")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08d3a3f1-288a-4999-b8d5-40d827d47f9b")
+		(property "Reference" "C302"
+			(at 140.97 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 140.97 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 138.1252 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR71E475KA73L"
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Murata"
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "531fb7a3-0553-468b-907e-0608d40bfae8")
+		)
+		(pin "2"
+			(uuid "ae2c66a5-9235-4970-b00a-ac02328cbbee")
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2377,6 +2503,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 151.13 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2251fec7-a358-4f01-8237-d47ff216c466")
+		(property "Reference" "#PWR0306"
+			(at 151.13 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0caac47e-2ca6-4935-91d3-fe45000197d6")
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 170.18 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -2527,6 +2731,84 @@
 			(project "Sesion2_Aser"
 				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5639530d-e738-42c3-870e-b3251c311fc9")
+		(property "Reference" "#PWR0305"
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba790878-fdd3-474b-9ed1-11e0b7ebcc42")
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -2832,6 +3114,110 @@
 			(project "Sesion2_Aser"
 				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
 					(reference "J302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6e05342-6dfc-40fb-b44a-932914fe1c47")
+		(property "Reference" "C303"
+			(at 154.94 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 154.94 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 152.0952 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 151.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 151.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "379e422f-11d3-43ce-918e-d2d5c65b8393")
+		)
+		(pin "2"
+			(uuid "6e7eceb5-4ebc-44f1-80b6-74acdb0e6051")
+		)
+		(instances
+			(project "Sesion2_Aser"
+				(path "/fd06b5ef-d168-48ef-bb9e-6741af0932d4/6dfce3bd-b41e-4ea2-b773-6d3e9a2c52c1"
+					(reference "C303")
 					(unit 1)
 				)
 			)
