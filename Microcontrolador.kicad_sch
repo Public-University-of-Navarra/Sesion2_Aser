@@ -1670,10 +1670,6 @@
 		(uuid "1a8de165-d575-46dd-a3c0-9e0217d1453b")
 	)
 	(no_connect
-		(at 182.88 83.82)
-		(uuid "35cd11de-24e6-486c-92bf-9cc63d40ab1c")
-	)
-	(no_connect
 		(at 152.4 91.44)
 		(uuid "385f7bf9-db34-4b2b-96c2-e4a58463573a")
 	)
@@ -1682,7 +1678,7 @@
 		(uuid "3ba8efaa-4167-427b-bc54-535ce0e8ac46")
 	)
 	(no_connect
-		(at 189.23 76.2)
+		(at 187.96 76.2)
 		(uuid "526e9695-9535-40aa-a73f-6304131fe9fc")
 	)
 	(no_connect
@@ -1696,10 +1692,6 @@
 	(no_connect
 		(at 187.96 83.82)
 		(uuid "6d69f57f-b0b4-4abf-98e1-a51c84de225c")
-	)
-	(no_connect
-		(at 187.96 85.09)
-		(uuid "7594837f-9adf-4b35-bc6c-2043d5716160")
 	)
 	(no_connect
 		(at 152.4 73.66)
@@ -1913,26 +1905,6 @@
 		)
 		(uuid "5122dbf9-ff5e-4c25-9ec3-d80baa04a09c")
 	)
-	(label "SWCLK"
-		(at 191.77 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "561d5758-f30d-46d5-bd76-b0c95823e24c")
-	)
-	(label "SWDIO"
-		(at 199.39 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "583dbfc1-a467-4c28-888b-d8fb3b92b857")
-	)
 	(label "AIN1"
 		(at 86.36 68.58 0)
 		(effects
@@ -2002,6 +1974,26 @@
 			(justify left bottom)
 		)
 		(uuid "a66e9e0d-fc5f-4153-aa2c-fb21adb50d21")
+	)
+	(label "SWCLK"
+		(at 199.39 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6f90a8b-aeab-45c7-8782-f1ecc91378e0")
+	)
+	(label "SWDIO"
+		(at 191.77 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcc71744-17c6-4f45-8b73-96609521adb3")
 	)
 	(label "OUT1"
 		(at 187.96 81.28 0)
@@ -2151,6 +2143,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 138.43 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 138.43 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a8b0e0f-65c0-4eae-83c6-3fad348ef15b")
 		)
@@ -2224,6 +2238,28 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 8KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, LQFP32"
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STM32G031K8T6"
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 170.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2608,7 +2644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 218.44 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2631,6 +2667,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300511121"
+			(at 218.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
 			(at 218.44 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2697,7 +2755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2720,6 +2778,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300611121"
+			(at 118.11 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
 			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)

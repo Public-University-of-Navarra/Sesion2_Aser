@@ -669,7 +669,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MCP1703A-3302E/DB"
 			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -680,7 +680,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip"
 			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -776,7 +776,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR71H105KA12L"
 			(at 152.4 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -787,7 +787,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" " Murata"
 			(at 152.4 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1036,7 +1036,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR71H105KA12L"
 			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1047,7 +1047,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" " Murata"
 			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)

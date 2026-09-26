@@ -551,7 +551,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0805KRX7R9BB104"
 			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -562,7 +562,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -661,7 +661,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-071KL"
 			(at 88.9 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -672,7 +672,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 72.39 90)
 			(hide yes)
 			(show_name no)

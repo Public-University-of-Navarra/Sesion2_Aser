@@ -837,7 +837,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1715721"
 			(at 16.51 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -848,7 +848,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Phoenix Contact"
 			(at 16.51 147.32 0)
 			(hide yes)
 			(show_name no)
