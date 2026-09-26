@@ -507,7 +507,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "CC0805KRX7R9BB104"
 			(at 109.22 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -518,7 +518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.4448 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -618,7 +618,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "RC0805FR-071KL"
 			(at 88.9 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -628,7 +628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.9 74.168 90)
 			(hide yes)
 			(show_name no)
