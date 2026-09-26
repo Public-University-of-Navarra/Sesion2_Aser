@@ -379,14 +379,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descripción",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -429,7 +453,7 @@
         "uuid": "fd06b5ef-d168-48ef-bb9e-6741af0932d4"
       }
     ],
-    "used_designators": "R1-3,R401,R501,R601,C1-3,C401,C501,C601,#PWR1,#PWR401,#PWR501,#PWR601",
+    "used_designators": "#FLG101-102,J101,R1-3,R401,R501,R601,C1-3,C201-202,C401,C501,C601,#PWR1,#PWR101,#PWR201-203,#PWR401,#PWR501,#PWR601,U201",
     "variants": []
   },
   "sheets": [
