@@ -732,7 +732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GRM21BR71H105KA12L"
+		(property "Value" "1u"
 			(at 156.21 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -992,7 +992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GRM21BR71H105KA12L"
+		(property "Value" "1u"
 			(at 115.57 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)

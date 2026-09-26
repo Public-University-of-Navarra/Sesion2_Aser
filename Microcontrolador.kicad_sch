@@ -2100,7 +2100,7 @@
 				)
 			)
 		)
-		(property "Value" "CC0805KRX7R9BB104"
+		(property "Value" "100n"
 			(at 138.43 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2633,7 +2633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61300611121"
+		(property "Value" "SWD"
 			(at 220.98 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2745,7 +2745,7 @@
 				)
 			)
 		)
-		(property "Value" "61300511121"
+		(property "Value" "E/S"
 			(at 118.11 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)

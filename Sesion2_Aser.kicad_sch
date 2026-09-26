@@ -794,7 +794,7 @@
 				)
 			)
 		)
-		(property "Value" "1715721"
+		(property "Value" "VIN 9V"
 			(at 16.51 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)

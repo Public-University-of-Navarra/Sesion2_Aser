@@ -507,7 +507,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CC0805KRX7R9BB104"
+		(property "Value" "100n"
 			(at 109.22 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -618,7 +618,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0805FR-071KL"
+		(property "Value" "1k"
 			(at 88.9 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
